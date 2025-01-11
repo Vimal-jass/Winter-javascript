@@ -13,7 +13,7 @@ const username = "vimal kumar "
 var anotherUsername = username
 var anotherUsername = "rahul"
 
-console.log(username , anotherUsername)
+// console.log(username , anotherUsername)
 
 // stack memory mai orginal value ki copy jati hai 
 
