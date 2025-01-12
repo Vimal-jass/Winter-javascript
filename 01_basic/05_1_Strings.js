@@ -20,7 +20,7 @@ const Name = new String("hello brother kiya haal hai ")
 
 // console.log(Name.charAt(10))  //kis position pr kon sa letter hai ye charat() batata hai
 
-// console.log(Name.indexOf("b"))  //ye  letter  ki position batata hai
+// console.log(Name.indexOf("b"))  //ye  letter  ki position batata hai and  if value did not present in the particular array etc so answer become -1 
 
 const newString = Name.substring(0,13) //=> idhar -tiv value ko  use nhi kar sakte hai ,   ye inke between ki  value deta hai initial value  include hoti  hai last value  include nhi hoti hai   
 
@@ -38,7 +38,7 @@ const url = "https://vimal.com/vimal%20Kumar"
 // console.log(url.replace("%20" , "-"))  // ye value ko replace kar deta hua jaise ki %20 hai or final mai  isne iski jagaha - replace kar dia 
 
 console.log(url.includes('hitesh'))  //ye batata hai ki ye variable mai available hai  ya nhi => inlcude 
-console.log(url.includes("vimal"))
+console.log(url.includes("vimal")) //result will come in the boolean form
 
 const tarun = "tarun-vimal-ka-dost-hai"
 
